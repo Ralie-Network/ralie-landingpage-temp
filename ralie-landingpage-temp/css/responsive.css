@@ -158,7 +158,7 @@
 
 @media(max-width: 767px){
 	.btn {padding: 6px 15px;}
-	.ptb-100 {padding-top: 40px; padding-bottom: 40px;}
+	.ptb-100 {padding-top: 10px; padding-bottom: 40px;}
 	.pt-100 {padding-top: 40px;}
 	.pb-45 {padding-bottom: 40px;}
 	.heading-title {font-size: 25px;}
@@ -210,7 +210,7 @@
 	.accordion-faq-title:after {right: 10px;}
 
 	/*----- About Page -----*/
-	.sub-page-banner {padding-top: 100px; padding-bottom: 60px;}
+	.sub-page-banner {padding-top: 40px; padding-bottom: 15px;}
 	.sub-banner-title {font-size: 30px;}
 	.sub-page-banner ul li {font-size: 14px; padding: 0px 15px;}
 	.play-icon span {width: 70px; height: 70px; line-height: 50px; border: 10px solid; font-size: 25px; padding-left: 4px;}
