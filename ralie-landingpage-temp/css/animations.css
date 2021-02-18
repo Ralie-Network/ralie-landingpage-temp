@@ -33,8 +33,8 @@
   margin-top:25%; }
 
 /*I've assigned class wHighlight to all the animate.css classes that add elements onto the page with delay.  */
-.wHighlight {background:#28a !important}
-@charset "UTF-8";
+.wHighlight {background:rgb(55, 230, 226) !important}
+/*@charset "UTF-8";*/
 
 .animated {
   animation-duration: 1s;
