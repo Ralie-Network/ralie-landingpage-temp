@@ -11,7 +11,12 @@ if(!$connection){
 die('Database connection failed: ' . mysqli_connect_error());
 }
 
+$from = "contact@ralie.io";
+$subject = "Your are on the waitlist for Ralie Network 1st Airdrop!";
+$message = "You have successfully registered for Ralie Network 1st Airdrop. The distribution is scheduled for March 17th.";
+$headers = "From:" . $from;
 $db_selected = mysqli_select_db($connection, DB_NAME);
+
 
 if(!$db_selected){
 die('Can\'t use ' .DB_NAME . ' : ' . mysqli_connect_error());
@@ -30,6 +35,8 @@ if($_POST['wallet']){
     echo 'wallet not inserted';
     exit;
 }
+
+mail($email,$subject,$message,$headers);
 
 $uniqueId= time().'-'.mt_rand();
 
