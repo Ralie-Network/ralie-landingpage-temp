@@ -185,7 +185,7 @@
 	.work-box-bg{max-width: 90%;}
 
 	/*----- Home Page Tow -----*/
-	.home-banner-2 {padding-top: 30px; min-height: 1080px;}
+	.home-banner-2 {padding-top: 30px; min-height: 960px;}
 	.banner-tow-content {text-align: center; margin-bottom: 30px;}
 	.coin-counter{float: unset;}
 	.banner-heading-tow {font-size: 30px;}
@@ -270,5 +270,5 @@
 	/*----- Home Page -----*/
 	.listtopie-svg {width: 280px; height: 280px;}
 	.token-graph-right{height: 300px;}
-	.listtopie-initialized {display: flex; justify-content: center;
+	.listtopie-initialized {display: flex; justify-content: center;}
 }
