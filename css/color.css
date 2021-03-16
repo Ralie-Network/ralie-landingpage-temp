@@ -86,9 +86,9 @@ ul.check-list li span{background: #37e6e2; color: #fff;}
 .Frequently-tabs li a:before{background: #37e6e2;}
 
 /*----- Home Page Tow -----*/
-.banner-heading-tow, .coins-counter-loop li .coin-day, .coin-slide-text, .coin-head{color: #111111;}
-.banner-heading-tow span, .coin-start{color: #37e6e2;}
-.coin-counter{background: #d7f8ff;}
+.banner-heading-tow, .coins-counter-loop li .coin-day, .coin-slide-text, .coin-head{color: #7d35dc;}
+.banner-heading-tow span, .coin-start{color: #6a37e6;}
+.coin-counter{background: #f6ecff80;}
 .coins-counter-loop li:before, .coins-counter-loop li:after, .coins-progress span{background: #37e6e2;}
 .coins-counter-loop li span{background: #fff; color: #37e6e2;}
 .coins-progress{background: #fff;}
